@@ -117,11 +117,12 @@
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
+  display: flex;
 }
 .form-input {
   background-color: white;
-  display: flex;
   width: 100%;
+  display: flex;
 }
 
 .form-message {
