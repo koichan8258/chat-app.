@@ -1,8 +1,7 @@
 class Message < ApplicationRecord
-<<<<<<< Updated upstream
   belongs_to :room
   belongs_to :user
+  has_one_attached :image
+
   validates :content, presence: true
-=======
->>>>>>> Stashed changes
 end
